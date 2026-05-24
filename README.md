@@ -12,6 +12,8 @@ https://github.com/getzep/zep
 
 https://github.com/letta-ai/letta
 
+https://github.com/Gentleman-Programming/engram
+
 https://github.com/Lum1104/Understand-Anything
 
 https://github.com/abhigyanpatwari/GitNexus
