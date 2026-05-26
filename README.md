@@ -8,11 +8,11 @@
 
 **Harness Engineering**
 
-[Learn Harness Engineering](https://walkinglabs.github.io/learn-harness-engineering/en/) - 
+[Learn Harness Engineering](https://walkinglabs.github.io/learn-harness-engineering/en/) - Learn Harness Engineering is a course dedicated to the engineering of AI coding agents.
 
-[Harness Engineering là gì?](https://goonnguyen.substack.com/p/harness-engineering-la-gi) - 
+[Harness Engineering là gì?](https://goonnguyen.substack.com/p/harness-engineering-la-gi) - The explanation about Harness Engineering—the emerging practice of building robust environments around AI models to prevent errors and maximize performance
 
-[Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/) - 
+[Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/) - OpenAI's article describes a real-world experiment where they built an internal product with 0 lines of manually-written code
 
 **Agent memory frameworks**
 
