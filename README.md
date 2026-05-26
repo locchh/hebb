@@ -6,6 +6,14 @@
 
 [Donald O. Hebb](https://en.wikipedia.org/wiki/Donald_O._Hebb) - Neuropsychologist behind "neurons that fire together wire together," cell assemblies, and phase sequences — the conceptual root of agent memory.
 
+**Harness Engineering**
+
+[Learn Harness Engineering](https://walkinglabs.github.io/learn-harness-engineering/en/) - 
+
+[Harness Engineering là gì?](https://goonnguyen.substack.com/p/harness-engineering-la-gi) - 
+
+[Harness engineering: leveraging Codex in an agent-first world](https://openai.com/index/harness-engineering/) - 
+
 **Agent memory frameworks**
 
 [claude-mem](https://github.com/thedotmack/claude-mem) - Persistent memory for Claude Code via lifecycle hooks, SQLite+FTS5, and Chroma; progressive disclosure for ~10× token savings on recall.
