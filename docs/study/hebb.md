@@ -90,39 +90,3 @@ and those strengths change based on **what tends to happen at the same time**.
 | Local — uses only the two things being connected | Needs an outside "you got it wrong" signal (like most neural-net training) |
 | No correct answer required | Learns from labeled, known-right examples |
 | Driven by "what shows up together" | Driven by "what reduces the error" |
-
-## Why this is the right starting point for an agent-memory project
-
-Hebb's brain ideas line up almost one-to-one with the problems an AI memory system
-has to solve:
-
-| Hebb's idea | The agent-memory version | Where it shows up in the tools we studied |
-|---|---|---|
-| Things that activate together get linked | Facts that come up together get linked | mem0 links entities; cognee & zep build connection edges |
-| Cell assembly (one stored memory) | One saved memory item | every tool's "memory" or "observation" |
-| A fragment re-lights the whole memory | A partial query pulls back the full memory | all of them — this is just *search/recall* |
-| Phase sequence (ordered chain) | Links that capture order and cause between memories | zep/Graphiti's time-ordered links |
-| Looping holds it, then makes it permanent | Short-term context gets promoted to long-term | mem0 session→user; cognee's improve step; claude-mem's end-of-session compression |
-| Without forgetting, it breaks | Memory must prune, de-duplicate, and expire | mem0 de-dup; zep expiring facts; cognee's forget step |
-
-**The deepest point:** Hebb's own model only works once you add the *forgetting* half.
-The simple "log everything" tools (claude-mem, engram) are great at piling memories up
-but have no real way to un-link or forget. The graph-based tools (especially zep, which
-can mark a fact as no-longer-true) honor the *full* picture — memory that both
-strengthens **and** actively forgets.
-
-### One important caveat: it's an inspiration, not a literal copy
-
-These memory tools are **search-and-storage systems**, not actual Hebbian networks.
-None of them keep a connection strength that quietly grows with repetition and fades
-with disuse — and that fading-and-growing strength is the one thing that would make
-something *truly* Hebbian.
-
-The real Hebbian part of an AI is the language model's own weights — but those are
-**frozen** once the model is trained and can't update while it's running. The memory
-tools exist *precisely because* the model can't keep learning on the fly.
-
-So treat Hebb as a **guiding star** for design — *associate, sequence, consolidate,
-forget* — rather than a blueprint to copy. The day a tool gives its connections a real,
-co-activation-driven strength that grows and decays, that's the day it becomes Hebbian
-in fact and not just in spirit.
